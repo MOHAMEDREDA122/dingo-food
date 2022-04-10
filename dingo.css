@@ -1,0 +1,645 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar {
+    position: fixed !important;
+    display: flex;
+    align-items: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    z-index: 99999999 !important;
+    width: 100% !important;
+    border-bottom: 3px inset;
+}
+.navbar-nav .nav-link {
+    margin: 10px !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem !important;
+    padding-left: 0.5rem;
+}
+.navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+    margin-left: auto;
+}
+.navbar {
+    --bs-bg-opacity: 1;
+    background-color: white !important;
+}
+img, svg {
+    height: 9vh;
+    padding: 10px;
+    margin-left: 50px;
+}
+.btn-outline-success {
+    color: orangered !important;
+    border-color: orangered !important;
+    border-radius: 33px !important;
+    transition: all 1s !important;
+}
+.btn-outline-success:hover{
+    background-color: orangered !important;
+    color: white !important;
+}
+
+.img102{
+    height: 90vh;
+    display: block;
+    margin-left: auto;
+    padding: 0;
+}
+.text01{
+    width: 700px;
+    margin-top: -400px;
+    padding: 30px;
+}
+.text01 h1{
+    width: 300px;
+    font-size: 20px;
+    color: orangered;
+    font-family: emoji;
+}
+.text01 h2{
+    font-size: 48px;
+    font-family: monospace;
+}
+.playef{
+    display: flex;
+}
+.playef a{
+    text-decoration: none;
+    color: black;
+}
+.playef img{
+    height: 5vh;
+}
+.click{
+    margin: 10px;
+    padding: 10px;
+}
+.click {
+    margin: 10px;
+    padding: 10px;
+    border-bottom-width: 1px;
+    border-left-color: orangered;
+    border-left-style: solid;
+    border-left-width: 1px;
+    
+}
+.click:hover{
+    border: 1px solid orangered;
+}
+.click a:hover{
+    color:  orangered;
+}
+.watch{
+    padding: 10px;
+    margin: 10px;
+}
+.title102{
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+.timges img{
+    height: 50vh;
+    display: block;
+    margin-left: auto;
+    margin-right: 300px;
+    margin-top: -300px;
+}
+.aboutfli{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fathabout{
+    font-family: cursive;
+}
+p {
+    font-size: 20px;
+}
+.fathabout h1 span{
+    color: orangered;
+}
+.foterfather{
+    border: 2px solid #ced4da;
+    width: 374px;
+    border-radius: 18px;
+    height: 57vh;
+    margin-top: 71px;
+    margin: 10px;
+}
+.foterfather img{
+    height: 30vh;
+}
+.birger{
+    font-family: auto;
+    margin-right: 57px;
+    margin-left: 57px;
+    width: 300px;
+}
+.birger a{
+    text-decoration: none;
+    color: orangered;
+    transition: all 1s;
+}
+.birger a:hover{
+    color: black;
+}
+.hisimg img{
+    height: 50vh;
+    display: block;
+    margin-left: auto;
+   padding: 0;
+}
+.ourhis{
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: 110px;
+    margin-top: -200px;
+    font-family: emoji;
+    padding: 10px;
+}
+.ourhis h1{
+    font-size: 32px;
+    width: 400px;
+}
+.ourhis p{
+    opacity: 0.5;
+}
+.ourhis h2{
+    font-size: 20px;
+    color: orangered;
+}
+.ourhis h3{
+    font-size: 18px;
+    opacity: 0.5;
+}
+.ourhis a{
+    text-decoration: none;
+    color: blue;
+}
+.ourhis a:hover{
+    color: orangered;
+}
+.foodhister img{
+    height: 70vh;
+    display: block ;
+    margin-right: auto;
+    margin-top: -350px;
+}
+.menu-father{
+    display: flex;
+}
+.menu-header{
+    margin: 30px;
+}
+.menu-header p{
+    opacity: 0.5;
+}
+.menu-links{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    height: 7vh;
+    margin-top: 50px;
+}
+.menu-links a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    transition: all 1s;
+}
+.menu-links a:hover{
+    color: orangered;
+}
+.first-child{
+    display: flex;
+}
+.food-img img{
+    height: 30vh;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.food-father{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.menu{
+    background-color:#ced4da ;
+    overflow-x: hidden;
+}
+.food-text{
+    background-color: #FFF;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 23vh;
+    margin: 10px;
+    padding: 23px;
+    width: 357px;
+    margin-top: 27px;
+}
+.food-text h1{
+    font-size: 20px;
+}
+.food-text p{
+    font-size: 15px;
+    opacity: 0.5;
+}
+.food-text h2{
+    font-size: 18px;
+}
+.first-ch{
+    width: 400px;
+    margin: 10px;
+    text-align: center;
+}
+.img-ch img{
+    height: 40vh;
+}
+.ch-text{
+    width: 282px;
+    margin-left: auto;
+    margin-right: 34px;
+    margin-top: -10px;
+    height: 164px;
+    border-bottom-right-radius: 96px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: #adb5bd;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: #adb5bd;
+    border-left-style: solid;
+    border-left-width: 1px;
+}
+.team-header {
+    margin: 30px;
+}
+.ch-links a{
+    border: 1px solid #adb5bd;
+    padding: 8px;
+    margin: 3px;
+    border-radius: 10px;
+    color: #adb5bd;
+    transition: all 1s;
+}
+.ch-links a:hover{
+    background-color: orangered;
+    color: #FFF;
+}
+.chefs-fa{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.news-title{
+    padding: 30px;
+}
+.ff-first{
+    width: 392px;
+    text-align: center;
+}
+.nws-img img{
+    height: 45vh;
+}
+.nws-texty{
+    width: 320px;
+    display: block;
+    margin-left: 61px;
+    margin-top: -26px;
+    height: 29vh;
+    border-radius: 0 0 26px 26px;
+    border-bottom-right-radius: 96px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: #adb5bd;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: #adb5bd;
+    border-left-style: solid;
+    border-left-width: 1px;
+}
+.links a{
+    text-decoration: none;
+    margin: 13px;
+    color: black;
+    opacity: 0.5;
+}
+.links{
+    margin-top: 18px;
+}
+.nws-texty h1{
+    font-size: 23px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 14px;
+}
+.rigtpoa{
+    text-decoration: none;
+    display: block;
+    margin-top: 22px;
+    color: black;
+    opacity: 0.5;
+}
+.rigtpoa img{
+    height: 4vh;
+}
+.nws-father{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.end{
+    height: 20vh;
+    background-color: lightslategrey;
+    margin-top: 10px;
+}
+.end p{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 250px;
+    color: #FFF;
+}
+.end a{
+    text-decoration: none;
+    color: orangered;
+}
+@media (max-width: 1109px){
+    *{
+        overflow-x: hidden;
+    }
+    .text01 h2{
+        font-size: 28px;
+        font-family: monospace;
+        width: 400px;
+    }
+    .text01 p{
+        margin-top: 0;
+        margin-bottom: 1rem;
+        width: 500px;
+        font-size: 13px;
+    }
+    .timges img{
+        margin-top: -7px;
+    }
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: column-reverse;
+        margin-left: auto;
+    }
+    .foodhister img{
+        height: 40vh;
+        margin-top: -29px;
+    }
+    .title102 h1{
+        height: 52px;
+    }
+    .menu-links{
+        height: 13vh;
+    }
+    .menu-header h1{
+        height: 88px;
+    }
+    .food-text h1 {
+        height: 25px;
+    }
+    .food-text{
+        height: 25vh;
+    }
+
+    .food-text h2 {
+        height: 23px;
+    }
+    .team-header h1{
+        height: 46px;
+    }  
+    .chefs-fa {
+        
+        overflow: hidden;
+    }
+    .ch-text h1{
+        height: 43px;
+    }
+    .ch-links{
+        overflow-x: clip;
+    }
+    .news-title h1{
+        height: 7vh;
+    }
+    .nws-texty h1{
+        height: 42px;
+        font-size: 17px;
+    }
+    .end p {
+        position: absolute;
+        margin-top: 70px;
+         margin-left: 0px; 
+        color: #FFF;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .img102{
+        height: 70vh;
+    }
+    .text01 {
+        width: 579px;
+        margin-top: -273px;
+        padding: 30px;
+    }
+    .text01 h2 {
+        font-size: 25px;
+        font-family: monospace;
+        width: 350px;
+    }
+    .timges img {
+        height: 50vh;
+        display: block;
+        margin-left: auto;
+        margin-right: 107px;
+        margin-top: -6px;
+    }
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: column-reverse;
+        margin-left: auto;
+    }
+    
+
+}
+@media only screen and (min-width: 576px) and (max-width: 767px){
+    
+    .text01 {
+        margin-top: -220px;
+       }
+       .text01 h2 {
+        font-size: 29px;
+        font-family: monospace;
+        width: 350px;
+    }
+    .text01 p {
+        width: 450px;
+    }
+    .timges img {
+        height: 50vh;
+        display: block;
+        margin-left: auto;
+        margin-right: 104px;
+        margin-top: -8px;
+    }
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: column-reverse;
+        margin-left: auto;
+    }
+    .ourhis{
+        width: 500px;
+        margin-right: auto;
+        margin-left: 1px;
+        flex-wrap: wrap;
+    }
+
+}
+@media (max-width: 576px){
+    *{
+        overflow-x: hidden;
+    }
+    .text01{
+        width: 521px;
+        margin-top: -253px;
+        padding: 30px;
+    }
+    .text01 h2 {
+        font-size: 32px;
+        font-family: monospace;
+        width: 300px;
+    }
+    .title102 h1{
+        height: 40px;
+    }
+    .click {
+        margin: 10px;
+        padding: 10px;
+        border-left-color: orangered;
+        border-left-style: solid;
+        border-left-width: 1px;
+    }
+    .timges img{
+        margin-right: 11px;
+        margin-top: -5px;
+        height: 35vh;
+    }
+    .playef{
+        display: block;
+    }
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: column-reverse;
+        margin-left: auto;
+    }
+    
+    .ourhis{
+        width: 400px;
+        margin-top: -110px;
+    }
+    .menu-header h1{
+        font-size: 15px;
+        width: 159px;
+        height: 4vh;
+    }
+    .text01 p {
+        width: 376px;
+    }
+    .menu-links{
+        display: none;
+    }
+    .menu-header {
+        margin: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .food-img img {
+        height: 20vh;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+    .food-text h1 {
+        font-size: 15px;
+        height: 20px;
+    }
+    .food-text p {
+        font-size: 12px;
+    }
+    .food-text h2 {
+        font-size: 14px;
+        margin-top: -18px;
+    }
+    .food-text {
+        background-color: #FFF;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        height: 19vh;
+        margin: 10px;
+        padding: 10px;
+        width: 202px;
+        margin-top: 8px;
+    }
+    .img-ch img {
+        height: 34vh;
+    }
+    .ch-text {
+        width: 252px;
+        margin-left: auto;
+        margin-right: 46px;
+        margin-top: -10px;
+        height: 189px;
+    }
+    .ch-links{
+        padding: 9px;
+        margin: 3px;
+        border-radius: 10px;
+        color: orangered;
+        transition: all 1s;
+    }
+    .ch-text h1{
+        font-size: 24px;
+         height: 31px;
+    }
+    .chefs-fa {
+        overflow: hidden;
+        margin-top: 0px;
+    }
+    .team-header h1{
+        height: 70px;
+    }
+    .team-header{
+        padding: 41px;
+        text-align: center;
+    }
+    .news-title h1{
+        height: 37px;
+    }
+    .nws-img img {
+        height: 36vh;
+    }
+    .nws-texty h1 {
+        font-size: 17px;
+        width: 257px;
+    }
+    .nws-texty {
+        width: 270px;
+        margin-left: 86px;
+    }
+    .links {
+        margin-top: 36px;
+    }
+    .end p {
+        position: absolute;
+        margin-top: 39px;
+        margin-left: 11px;
+        color: #FFF;
+    }
+
+} 
